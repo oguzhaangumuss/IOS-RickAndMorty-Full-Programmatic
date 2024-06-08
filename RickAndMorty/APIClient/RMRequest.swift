@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+/// Represent unique
+final class RMRequest {
+    ///  Shared singelton instance
+    static let shared = RMRequest()
+    ///  Privatized constructor
+    private init(){}
+    
+    
+}

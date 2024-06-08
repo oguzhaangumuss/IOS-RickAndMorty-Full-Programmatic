@@ -6,13 +6,13 @@
 //
 
 import UIKit
-
-class RMLocationViewController: UIViewController {
+/// Controller to show and search Locations
+final class RMLocationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
+        title = "Locations"
     }
     
 
