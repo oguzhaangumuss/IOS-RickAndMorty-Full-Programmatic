@@ -7,10 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RMTavViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .cyan
         // Do any additional setup after loading the view.
     }
 
